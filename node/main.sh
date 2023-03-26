@@ -68,7 +68,14 @@ kubeadm join 192.168.1.200:6443 --token abcdef.0123456789abcdef \
 
 # 如果上面这个命令丢失了，可以通过在 master 中执行 kubeadm token create --print-join-command 来获取。
 
-
+# 各个服务器的网络地址
+47.113.144.248  master
+39.96.212.224   node00
+47.115.215.127  node01
+43.136.115.216  node02
+47.120.14.60    node03
+47.113.201.179  node04
+47.120.8.61     node05
 
 
 
